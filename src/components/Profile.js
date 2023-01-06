@@ -1,6 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import UIButton from "./UIButton";
+import { BsThreeDots } from "react-icons/bs";
 
 export default function Profile() {
   return (
@@ -9,7 +10,7 @@ export default function Profile() {
       <div className="profile-image-container">
         {/* profile image */}
         <img
-          src="https://images.unsplash.com/photo-1603570388466-eb4fe5617f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+          src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
           alt="profile"
           className="profile-image"
         />
@@ -23,6 +24,7 @@ export default function Profile() {
           <UIButton btnText="message" />
 
           {/* 3 dot icon */}
+          <BsThreeDots size={23} style={{ marginLeft: 10 }} />
         </div>
         {/* user stats */}
         <div className="user-stats-container">
