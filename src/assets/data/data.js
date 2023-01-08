@@ -61,4 +61,91 @@ const stories = [
   },
 ];
 
-export { stories };
+const posts = [
+  {
+    id: "1",
+    postImage:
+      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    likes: 120,
+    comments: 33,
+  },
+  {
+    id: "2",
+    postImage:
+      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    likes: 220,
+    comments: 233,
+  },
+  {
+    id: "3",
+    postImage:
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    likes: 140,
+    comments: 35,
+  },
+  {
+    id: "4",
+    postImage:
+      "https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    likes: 2000,
+    comments: 330,
+  },
+  {
+    id: "5",
+    postImage:
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    likes: 630,
+    comments: 933,
+  },
+  {
+    id: "6",
+    postImage:
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    likes: 10,
+    comments: 23,
+  },
+  {
+    id: "7",
+    postImage:
+      "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    likes: 1200,
+    comments: 2033,
+  },
+  {
+    id: "8",
+    postImage:
+      "https://images.unsplash.com/photo-1570143675316-51a19f90a943?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+    likes: 70,
+    comments: 330,
+  },
+  {
+    id: "9",
+    postImage:
+      "https://images.unsplash.com/photo-1596306499317-8490232098fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+    likes: 920,
+    comments: 3560,
+  },
+  {
+    id: "10",
+    postImage:
+      "https://images.unsplash.com/photo-1593604572577-1c6c44fa246c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+    likes: 1020,
+    comments: 3312,
+  },
+  {
+    id: "11",
+    postImage:
+      "https://images.unsplash.com/photo-1657664058220-a1bfc04e2e14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    likes: 1120,
+    comments: 4133,
+  },
+  {
+    id: "12",
+    postImage:
+      "https://images.unsplash.com/photo-1575089976121-8ed7b2a54265?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    likes: 97,
+    comments: 453,
+  },
+];
+
+export { stories, posts };
