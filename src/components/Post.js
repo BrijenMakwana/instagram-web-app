@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Post.css";
 import { AiFillHeart } from "react-icons/ai";
 import { IoChatbubble } from "react-icons/io5";
+import { IoIosPhotos } from "react-icons/io";
 
 export default function Post(props) {
   const { postImage, likes, comments } = props;
@@ -26,9 +27,17 @@ export default function Post(props) {
           </div>
         </div>
       )}
+      {/* multiple images in a post icon */}
+      {postImage.length > 1 && (
+        <IoIosPhotos
+          color="#fff"
+          size={20}
+          style={{ position: "absolute", marginLeft: 265, marginTop: 8 }}
+        />
+      )}
 
       {/* post image */}
-      <img src={postImage} alt="post" className="post-image" />
+      <img src={postImage[0]} alt="post" className="post-image" />
     </div>
   );
 }
