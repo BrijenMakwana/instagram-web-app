@@ -1,0 +1,11 @@
+.ui-auth-btn-container {
+  padding: 7px 15px;
+  border-radius: 8px;
+  margin: 0 1px;
+  cursor: pointer;
+}
+
+.ui-auth-btn-text {
+  font-size: 15px;
+  font-weight: 600;
+}

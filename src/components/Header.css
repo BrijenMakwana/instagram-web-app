@@ -1,0 +1,28 @@
+.header-container {
+  background-color: #fff;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 950px;
+  margin: auto;
+  padding: 12px 0;
+}
+
+.logo-text {
+  font-size: 27px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.auth-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
